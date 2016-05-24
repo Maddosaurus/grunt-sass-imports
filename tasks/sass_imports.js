@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 						css += grunt.file.read(filepath) + '\n\n';
 					}
 					else {
-						resolved = path.relative(relRoot, filepath);
+						resolved = path.relative(relRoot, filepath).replace(/\\/g, "/");;
 						grunt.log.debug(resolved.green + ' @import created'.magenta);
 						sassImports += '@import "' + resolved + '";\n';
 					}

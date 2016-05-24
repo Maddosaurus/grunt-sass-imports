@@ -1,6 +1,6 @@
 {
   "name": "grunt-scss-imports",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A grunt task to create sass/scss @import statements from a collection of stylesheet files",
   "main": "Gruntfile.js",
   "scripts": {
@@ -39,8 +39,5 @@
     "compass",
     "import",
     "@import"
-  ],
-  "publishConfig": {
-    "registry":"http://registry.npmjs.org/"
-  }
+  ]
 }
