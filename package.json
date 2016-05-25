@@ -1,14 +1,14 @@
 {
-  "name": "grunt-scss-imports",
+  "name": "@SCOPE/grunt-scss-imports",
   "version": "0.1.0",
-  "description": "A grunt task to create sass/scss @import statements from a collection of stylesheet files",
+  "description": "Hotfixed Version of Grunt Sass Imports - A grunt task to create sass/scss @import statements from a collection of stylesheet files",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ITspirit/grunt-sass-imports.git"
+    "url": ""
   },
   "author": {
     "name": "Michael Frank",
